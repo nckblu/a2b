@@ -14,7 +14,7 @@
 
     &__digit {
       text-align: center;
-      width: 28px;
+      width: 21px;
 
       @include breakpoint($sm) {
         width: 43px;

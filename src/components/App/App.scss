@@ -23,9 +23,13 @@ body {
     top: 50%;
     transform: translateY(-50%);
     position: relative;
-    height: 375px;
     max-width: 600px;
     margin: 0 auto;
+    height: 358px;
+
+    @include breakpoint($sm) {
+      height: 375px;
+    }
   }
 
   &__header {
@@ -33,10 +37,12 @@ body {
     position: relative;
     display: inline-flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 50px;
 
     @include breakpoint($sm) {
       margin-bottom: 50px;
+      margin-top: 0;
     }
 
     &__text {
