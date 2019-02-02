@@ -25,4 +25,4 @@ This project makes use of the following technologies and is bootstrapped with CR
 `yarn test` Runs tests.
 
 ### API
-While the application makes use of both the [HERE API](https://developer.here.com/) and the [Uber API](https://developer.uber.com/) the request are proxied and formatted using the a2b me API project built with Laravel.
+While the application makes use of both the [HERE API](https://developer.here.com/) and the [Uber API](https://developer.uber.com/) the request are proxied and formatted using the [a2b me API](https://github.com/nckblu/a2b-api) built with Laravel.
