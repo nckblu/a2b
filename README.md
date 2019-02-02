@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/nckblu/a2b.svg?branch=master)](https://travis-ci.org/nckblu/a2b)
+
+
 # a2b me
 
 A simple frontend application for getting price estimates for journeys
