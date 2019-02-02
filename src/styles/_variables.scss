@@ -1,0 +1,15 @@
+$black: #20211f;
+$white: #fff;
+$green: #7fc379;
+
+$ip: 375px;
+$phablet: 600px;
+$sm: 768px;
+$md: 992px;
+$lg: 1160px;
+
+@mixin breakpoint($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}

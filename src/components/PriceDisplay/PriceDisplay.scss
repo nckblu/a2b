@@ -1,0 +1,13 @@
+.PriceDisplay {
+  font-size: 40px;
+  padding-top: 30px;
+  color: $white;
+
+  @include breakpoint($sm) {
+    font-size: 70px;
+  }
+
+  &__failed {
+    font-size: 30px;
+  }
+}

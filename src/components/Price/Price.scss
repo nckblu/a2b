@@ -1,0 +1,29 @@
+.Price {
+  &__estimate {
+    display: flex;
+    justify-content: center;
+
+    &__currency {
+      padding-right: 10px;
+    }
+
+    &__sep {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    &__digit {
+      text-align: center;
+      width: 28px;
+
+      @include breakpoint($sm) {
+        width: 43px;
+      }
+    }
+  }
+
+  &__label {
+    font-size: 23px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,76 @@
+body {
+  font-family: "Fredoka One", cursive;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  max-height: 100vh;
+  background: $black;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+
+  &__inner {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    height: 375px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    @include breakpoint($sm) {
+      margin-bottom: 50px;
+    }
+
+    &__text {
+      color: $white;
+      font-size: 45px;
+      display: inline-flex;
+
+      @include breakpoint($sm) {
+        font-size: 75px;
+      }
+    }
+
+    &__circle {
+      width: 55px;
+      height: 55px;
+      background: $green;
+      position: absolute;
+      border-radius: 50%;
+      right: -73px;
+      top: -7px;
+
+      @include breakpoint($sm) {
+        top: 14px;
+        width: 65px;
+        height: 65px;
+        right: -100px;
+      }
+    }
+  }
+
+  &__search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+
+    &:first-of-type {
+      z-index: 3;
+    }
+  }
+}
