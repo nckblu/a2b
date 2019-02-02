@@ -2,6 +2,10 @@
   color: $white;
   font-size: 30px;
 
+  @include breakpoint($ip) {
+    padding-top: 20px;
+  }
+
   @include breakpoint($sm) {
     font-size: 70px;
     padding-top: 30px;
