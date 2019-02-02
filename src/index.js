@@ -4,6 +4,9 @@ import { Provider } from "react-redux";
 import App from "./components/App";
 import Store from "./store";
 import "./styles/_core.scss";
+import { unregister } from "./serviceWorker";
+
+unregister(); // Worst part of CRA
 
 const store = Store.configure();
 
