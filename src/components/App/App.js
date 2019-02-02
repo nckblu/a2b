@@ -61,6 +61,17 @@ class App extends Component {
 
 		return (
 			<div className="App" style={{ height: appHeight }}>
+				<div className="App__github">
+					<a
+						class="github-button"
+						href="https://github.com/nckblu/a2b"
+						data-icon="octicon-star"
+						data-size="large"
+						aria-label="Star nckblu/a2b on GitHub"
+					>
+						Star on GitHub
+					</a>
+				</div>
 				<div className="App__inner">
 					<header className="App__header">
 						<AnimationSlot state="logoIn">

@@ -13,6 +13,12 @@ body {
   padding-right: 20px;
   position: relative;
 
+  &__github {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
   &__inner {
     top: 50%;
     transform: translateY(-50%);
