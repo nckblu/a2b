@@ -1,6 +1,7 @@
 {
-  "name": "founcy",
+  "name": "a2b-me",
   "version": "0.1.0",
+  "homepage": "http://a2b.me.uk",
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",
